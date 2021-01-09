@@ -121,8 +121,8 @@ else:
 
 #登录页
 check_load('ID', 'username')
-driver.find_element_by_id("username").send_keys(u"pengjw3")   # 通过审查元素发现input标签id为__查询网站__，输入账号
-driver.find_element_by_id("password").send_keys(u"pengjiaweijw3.2")   # 通过审查元素发现input标签id为__查询网站__，输入密码 
+driver.find_element_by_id("username").send_keys(u"******")   # 通过审查元素发现input标签id为__查询网站__，输入账号
+driver.find_element_by_id("password").send_keys(u"******")   # 通过审查元素发现input标签id为__查询网站__，输入密码 
 driver.save_screenshot(save_pic_path+"list.png")  # 保存截图
 True
 driver.find_element_by_id("password").send_keys(Keys.ENTER) # 模拟Enter回车键
